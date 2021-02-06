@@ -1,5 +1,5 @@
 # High Throughput Screening Quality Control
-The robustness of high-throughput screening (HTS) data is paramount to the identification of high-quality small-molecule candidates for further, more comprehensive investigation. Quality control (QC) is a critical aspect of screening which permits the identification of systematic errors and random artifacts, directly influencing the quality of putative hits.
+The robustness of high-throughput screening (HTS) data is paramount to the identification of high-quality small-molecule candidates for further, more comprehensive investigation. Quality control (QC) is a critical aspect of screening which permits the identification of systematic errors and random artefacts, directly influencing the quality of putative hits.
 
 This script is designed to analyse an absorbance-based screening dataset and output several quality metrics and visualisations which can be used to identify the robustness of the screen and any potential issues.
 
@@ -33,3 +33,13 @@ Statistical metrics are exported as graphical figures and as a dataframe.
   <tr><td>C</td><td>23</td><td>POS</td></tr>
   <tr><td>C</td><td>24</td><td>POS</td></tr>
   </table>
+
+## Dependencies
+The script relies on the following dependencies (tested version provided in parentheses):
+* python (3.8)
+* pandas (1.1.4)
+* matplotlib (3.3.3)
+* seaborn (0.11.0)
+
+## Install
+Clone this repository: git clone https://github.com/hayden-bell/HTS-QC
